@@ -1,0 +1,33 @@
+.content21 {
+    padding: 3vh;
+    min-height: 74vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/background_road.png);
+  }
+  
+  .tab-container3 {
+    background-color: whitesmoke;
+    padding-top: 4vh;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    border-radius:  0 0px 10px 10px;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .cards-container3 {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card21 {
+    margin: 10px;
+  }
+  
+  .bobota {
+    width: 78%;
+  }

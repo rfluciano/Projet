@@ -1,0 +1,52 @@
+.contentService{
+    min-height: 74vh;
+}
+
+.card4 {
+  width: 50vh;
+  height: fit-content;
+  background-color: white;
+  border: 1px var(--light);
+  box-shadow: var(--box-shadow);
+  margin-right: 40px;
+  border-radius: 10px;
+}
+
+.card4 > img{
+    border-left: 1px  solid black;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    float: right;
+    border-radius: 0 10px 10px 0px;
+}
+
+.content4{
+    margin: 8px;
+    float: left;
+    color: white;
+}
+
+.t4div {
+  position: relative;
+  top: 00px;
+  margin-bottom: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding: 40px;
+  margin-left: 45px;
+}
+
+#drive{
+    background-color: #ff735c;
+}
+
+#ride{
+    background-color: var(--darkblue) ;
+}
+
+#help{
+    background-color: #383c45;
+}

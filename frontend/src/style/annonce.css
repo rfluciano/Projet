@@ -1,0 +1,22 @@
+.content25{
+  min-height: 74vh;
+  padding-bottom: 30px;
+}
+
+
+.tab-container2{
+  padding-top: 4vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cards-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.card20 {
+  margin: 10px;
+}

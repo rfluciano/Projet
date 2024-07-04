@@ -1,0 +1,137 @@
+.flex {
+  display: flex;
+  gap: 10px; /* Adjust the gap as needed */
+  align-items: center;
+  justify-content: space-between; /* Evenly space out the items */
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align to the start */
+  margin-right: auto; /* Push the block to the left */
+}
+
+.box {
+  display: block;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 10px; /* Add margin between boxes */
+}
+
+.box p {
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.reserve-inside {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  border: none;
+  background-color: var(--yellow);
+  border-radius: 3px;
+  height: 2.2rem;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+#modifier{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  border: none;
+  background-color: var(--darkblue);
+  border-radius: 3px;
+  height: 2.2rem;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  min-width: 14vh;
+}
+
+#accepter{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  border: none;
+  background-color: green;
+  border-radius: 3px;
+  height: 2.2rem;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+#modifier:hover{
+  background-color: var(--yellow-light);
+  cursor: pointer;
+}
+
+#modifier img{
+  position: relative;
+  right: -13px;
+}
+
+#supprimer{
+  background-color: red;
+}
+
+#supprimer:hover{
+  background-color: var(--yellow-light);
+  cursor: pointer;
+}
+
+
+.reserve-inside:hover {
+  background-color: var(--yellow-light);
+  cursor: pointer;
+}
+
+.reserve-inside p {
+  margin: auto;
+  color: white;
+}
+
+.reserve-inside img {
+  width: 1.5rem;
+}
+
+.reserve {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.reserve button {
+  border: none;
+  border-radius: 3px;
+  height: 2.2rem;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+/* .reserve button:hover {
+  background-color: var(--yellow-light);
+} */
+
+.reserve button p {
+  color: white;
+  margin: 0;
+}
+
+.reserve button img {
+  position: relative;
+  right: 0px;
+  width: 1.5rem;
+}

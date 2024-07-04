@@ -1,0 +1,62 @@
+.content9 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 74vh;
+    background-image: url(/images/background_road.png); /* Optionnel: pour ajouter un fond */
+}
+
+.cardindal {
+    padding: 0;
+    background: white;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    max-width: 600px; /* Largeur maximale pour la carte */
+    width: 100%; /* Assurer la carte prend tout l'espace disponible jusqu'à la largeur maximale */
+    box-sizing: border-box;
+}
+
+.izy2 {
+    margin: 20px;
+}
+
+.toptop {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%; /* Remplit toute la largeur du dashboard */
+    height: 50px;
+    background-color: var(--darkblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Permet de positionner le bouton retour en absolu */
+    color: white;
+    font-size: 20px; /* Taille de la police pour "Mon Profil" */
+}
+
+.retour {
+    position: absolute;
+    left: 10px; /* Aligner le bouton retour à gauche */
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px; /* Taille de la police pour le bouton retour */
+    color: white; /* Couleur du texte */
+}
+
+.retour:hover{
+    color: whitesmoke;
+}
+
+.retour img {
+    margin-right: 8px; /* Espacement entre l'image et le texte */
+}
+
+#letabory{
+    width: 20vh;
+
+}
+
+
